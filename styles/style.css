@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    min-height: 293px; /* Уточнить МАКС или МИН или всё же нет?? */
+    min-height: 293px;
     padding: 50px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .header__links-list {
-    display: flex; 
+    display: flex;
     column-gap: 28px;
 }
 
@@ -28,7 +28,7 @@
     font-size: 18px;
     line-height: 135%;
     color: #000;
-    text-underline-offset: 4px; /* линии у ссылок и адреса ниже оставлены от текста и тоньше */
+    text-underline-offset: 4px;
     text-decoration-thickness: 1px;
 }
 
@@ -50,7 +50,7 @@
     color: #000;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
-    overflow-wrap: normal; /* чтобы не переносился телефон и почта */
+    overflow-wrap: normal;
 }
 
 .header__address {
@@ -58,7 +58,6 @@
     flex-direction: column;
     justify-self: end;
     align-items: flex-start;
-
 }
 
 .cover {
@@ -67,7 +66,7 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* долго искал положение фона :) */
+    background-position: center;
 }
 
 .overlay {
@@ -75,7 +74,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / .6);
+    background-color: rgb(0 0 0 / 0.6);
 }
 
 .cover__content {
@@ -135,19 +134,19 @@
     font-size: 22px;
     line-height: 28px;
     color: #fff;
-    text-transform: uppercase; 
-    word-spacing: 19px; 
+    text-transform: uppercase;
+    word-spacing: 19px;
 }
 
 .bet-button {
-    min-width: 256px; 
+    min-width: 256px;
     min-height: 51px;
     border: 2px solid #fff;
     background-color: transparent;
     font-size: 22px;
     line-height: 28px;
     color: #fff;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     padding: auto;
 }
 
@@ -187,7 +186,7 @@
 
 .card__content {
     padding: 48px 40px;
-    position: absolute;  /* нужно заменить, на при замене на релатив текст уходит вверх */
+    position: absolute;
     inset: 0;
     z-index: 20;
     display: flex;
@@ -202,7 +201,7 @@
     text-transform: uppercase;
     color: #fff;
     text-decoration: underline;
-    text-underline-offset: 3px; 
+    text-underline-offset: 3px;
     text-decoration-thickness: 1px;
 }
 
@@ -213,7 +212,7 @@
 }
 
 .card_type_film {
-    background: url(../images/card-lot-01.jpg) center / cover; /* шорткат: image + position / size */
+    background: url(../images/card-lot-01.jpg) center / cover;
 }
 
 .card_type_book {
@@ -232,7 +231,7 @@
     line-height: 23px;
     color: #000;
     text-underline-offset: 4px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
 }
 
 .about {
@@ -260,13 +259,13 @@
     justify-content: center;
     align-items: center;
 }
- 
+
 .about__logo__image {
     position: relative;
     inset: 0;
     z-index: 1;
-    width: 148px; 
-    height: 114px; 
+    width: 148px;
+    height: 114px;
 }
 
 .about__title {
@@ -277,7 +276,6 @@
     line-height: 47px;
     text-transform: uppercase;
     color: #000;
-    
 }
 
 .about__text {
@@ -306,7 +304,7 @@
 }
 
 .footer__link {
-    font-style: normal; 
+    font-style: normal;
     font-size: 18px;
     line-height: 135%;
     color: #000;
@@ -328,7 +326,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #000;
-    text-underline-offset: 4px; /* линии у ссылок и адреса ниже оставлены от текста и тоньше */
+    text-underline-offset: 4px;
     text-decoration-thickness: 1px;
 }
 
@@ -341,7 +339,6 @@
     justify-content: space-between;
     width: 240px;
     margin-left: auto;
-
 }
 
 .footer__social-list-item {
