@@ -27,7 +27,7 @@
 .header__link {
     font-style: normal;
     font-size: 18px;
-    line-height: 135%;
+    line-height: 117%;
     color: #000;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
@@ -43,12 +43,20 @@
     height: 110px;
 }
 
+.contacts {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
 .address {
     overflow-wrap: normal;
     max-width: 236px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .header__address {
@@ -298,7 +306,7 @@
 .footer__menu-link {
     font-style: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 117%;
     color: #000;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
