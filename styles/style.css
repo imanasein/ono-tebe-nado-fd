@@ -44,18 +44,16 @@
 }
 
 .address {
-    font-style: normal;
-    font-size: 18px;
-    line-height: 135%;
-    color: #000;
     overflow-wrap: normal;
     max-width: 236px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .header__address {
     justify-self: end;
+    margin-right: 35px;
 }
 
 .cover {
@@ -281,19 +279,10 @@
     padding: 0 50px 82px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-} 
+}
 
 .footer__address {
     align-items: flex-start;
-}
-
-.footer__link {
-    font-style: normal;
-    font-size: 18px;
-    line-height: 135%;
-    color: #000;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 1px;
 }
 
 .footer__menu-list {
@@ -307,6 +296,7 @@
 }
 
 .footer__menu-link {
+    font-style: normal;
     font-size: 18px;
     line-height: 21px;
     color: #000;
